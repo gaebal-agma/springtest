@@ -31,7 +31,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // AuthenticationManager 빈을 명시적으로 선언
+   
     @Bean
     public AuthenticationManager authenticationManagerBean(HttpSecurity http) throws Exception {
         return http.getSharedObject(AuthenticationManagerBuilder.class)

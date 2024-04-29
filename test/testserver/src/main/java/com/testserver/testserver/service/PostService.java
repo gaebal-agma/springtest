@@ -14,5 +14,5 @@ public class PostService {
     public List<Post> getAllPosts() {
         return postRepository.findAll();
     }
-    // 추가적인 비즈니스 메소드들을 여기에 구현할 수 있습니다.
+    
 }

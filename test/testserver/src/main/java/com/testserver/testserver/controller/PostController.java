@@ -20,5 +20,4 @@ public class PostController {
         List<Post> posts = postService.getAllPosts();
         return ResponseEntity.ok(posts);
     }
-    // 추가적인 엔드포인트들을 여기에 구현할 수 있습니다.
-}
+    // 추가적인 엔드포인트들을 여기에 구현
